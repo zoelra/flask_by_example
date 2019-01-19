@@ -33,9 +33,9 @@
 # When using Gradle or Maven with auto-import, you should exclude module files,
 # since they will be recreated, and may cause churn.  Uncomment if using
 # auto-import.
-# .idea/modules.xml
-# .idea/*.iml
-# .idea/modules
+ .idea/modules.xml
+ .idea/*.iml
+ .idea/modules
 
 # CMake
 cmake-build-*/
@@ -73,10 +73,10 @@ fabric.properties
 ### PyCharm Patch ###
 # Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
 
-# *.iml
-# modules.xml
-# .idea/misc.xml
-# *.ipr
+ *.iml
+ modules.xml
+ .idea/misc.xml
+ *.ipr
 
 # Sonarlint plugin
 .idea/sonarlint
@@ -87,19 +87,22 @@ fabric.properties
 ### venv ###
 ## Virtualenv
 ## http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
-#.Python
-#[Bb]in
-#[Ii]nclude
-#[Ll]ib
-#[Ll]ib64
-#[Ll]ocal
-#[Ss]cripts
-#pyvenv.cfg
-#.venv
-#pip-selfcheck.json
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+.venv
+pip-selfcheck.json
 #
 ## End of https://www.gitignore.io/api/venv
 
 *.cfg
 *.egg
 *.pth
+venv
+env
+
