@@ -1,1 +1,1 @@
-The purpose of this repo is to document my journey through Real Python by Example. I am learning Flask, SQLAlchemy, and Heroku.
+The purpose of this repo is to document my journey through Real Python by Example. I am learning Flask, SQLAlchemy, and Heroku and will focus on chapters 1, 2, and potentially 6 of the tutorial (for now).
